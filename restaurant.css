@@ -1,83 +1,92 @@
 /*css reset*/
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-:root{
-    --navbar-height:59px;
+:root {
+    --navbar-height: 59px;
 }
+
 /*navbar*/
-#navbar{
-    display:flex;
-    align-items:center;    
+#navbar {
+    display: flex;
+    align-items: center;
     /*background: url(./food1.jpg);
     background-repeat: no-repeat;
     background-size: cover;*/
     position: sticky;
     top: 0px;
-    
+
 
 }
-#navbar::before{
-    content:"";
+
+#navbar::before {
+    content: "";
     background-color: black;
     opacity: 0.7;
     top: 0px;
     left: 0px;
-    height:66%;
+    height: 66%;
     width: 100%;
     padding: 12px;
     z-index: -1;
     position: absolute;
 }
+
 /*navbar logo and image*/
-.logo{
+.logo {
     margin: 7px 8px;
-    
+
     width: 35%;
 }
 
-.logo img{
+.logo img {
     width: 120px;
     margin: 1px 0px 13px 6px;
 }
+
 /*navbar liststyling*/
 
-#navbar ul li a{
+#navbar ul li a {
     padding: 0px 22px;
     padding-bottom: 2px;
     float: right;
 }
 
-.nav2{
+.nav2 {
     color: black;
 }
-#navbar ul{
-    display:flex ;
-    font-family: 'baloo bhai',cursive;
+
+#navbar ul {
+    display: flex;
+    font-family: 'baloo bhai', cursive;
 }
-#navbar ul li{
+
+#navbar ul li {
     list-style: none;
     font-size: 1.3rem;
-    
-    
+
+
 }
-#navbar ul li a{
-    text-decoration:none;
-    color:white;
+
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
     border-radius: 19px;
 }
-#navbar ul li a:hover{
-    background-color: white ;
-    color:black;
+
+#navbar ul li a:hover {
+    background-color: white;
+    color: black;
 }
+
 /*home section*/
-#home{
+#home {
     background: url(./food3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -91,33 +100,37 @@ html{
     cursor: pointer;
     top: 0px;
 }
-#home p{
+
+#home p {
     cursor: pointer;
-    color:white;
+    color: white;
     padding: 0px;
     margin: 12px;
-    font-size:22px;
+    font-size: 22px;
     font-family: font_2;
     line-height: 2;
 
 
-/* text-align: center; */
-/* line-height: 2; */
-/* font-size: 15px; */
-/* margin-top: 10px; */
-/* font-family: font_2; */
+    /* text-align: center; */
+    /* line-height: 2; */
+    /* font-size: 15px; */
+    /* margin-top: 10px; */
+    /* font-family: font_2; */
 }
-#home h1{
-    color:white;
-   
+
+#home h1 {
+    color: white;
+
 }
+
 /*contact */
-#contact{
-position: relative;
+#contact {
+    position: relative;
 }
-#cont1{
+
+#cont1 {
     display: flex;
-    
+
     background: url(./contact3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -127,72 +140,80 @@ position: relative;
 
 }
 
-#cont1 form{
+#cont1 form {
     width: 224px;
     margin: 118px 77px 0px -324px;
     justify-content: center;
     text-align: center;
 
 }
+
 #cont1 input,
-#cont1 textarea{
+#cont1 textarea {
     margin: 0px;
     width: 389px;
-    font-family: 'Bree serif',serif;
-    font-size:1.2rem;
-}
-#cont1 label{
-    font-family: 'Bree serif',serif;
-    font-size:1.2rem;
-    float: left;
-    
+    font-family: 'Bree serif', serif;
+    font-size: 1.2rem;
 }
 
-.btns{
+#cont1 label {
+    font-family: 'Bree serif', serif;
+    font-size: 1.2rem;
+    float: left;
+
+}
+
+.btns {
     width: 389px;
     background-color: rgb(204, 73, 25);
-    color:white;
+    color: white;
     border: none;
     border-radius: 4px;
     padding: 4px;
 }
-footer{
+
+footer {
     background-color: black;
 
     color: white;
 }
+
 /*services*/
-#service{
+#service {
     display: flex;
-    
+
     margin-top: 20px;
-    
+
 }
-#service .block{
-   
-    border-radius:40px;
-  
-    padding:20px 18px 3px 16px;
+
+#service .block {
+
+    border-radius: 40px;
+
+    padding: 20px 18px 3px 16px;
     height: 320px;
-   
-    
+
+
 }
-#service .block img{
+
+#service .block img {
     margin: auto;
     height: 70px;
- display: table;
+    display: table;
     padding-top: px;
 
-    
+
 }
-#service .block p{
+
+#service .block p {
     text-align: center;
     line-height: 2;
     font-size: 15px;
     margin-top: 10px;
     font-family: font_2;
 }
-#service .block h3{
+
+#service .block h3 {
     font-size: 20px;
     font-family: font_2;
     text-transform: uppercase;
@@ -202,43 +223,50 @@ footer{
     margin-top: 15px;
     color: #000000;
 }
-.aboutimg{
-    
+
+.aboutimg {
+
     margin: auto;
-    
+
     display: flex;
 }
-#about{
+
+#about {
     display: flex;
     margin: -30px 22px 42px 0px;
     height: 500px;
     width: 100%;
 }
-#about h1{
+
+#about h1 {
     font-size: 2.8rem;
     color: orange;
     margin-top: 22px
 }
-#about p{
+
+#about p {
     margin-top: 42px;
 }
-.aboutcnt{
+
+.aboutcnt {
     margin: 12px 22px 22px 52px;
-    padding-top: 2px; 
+    padding-top: 2px;
 }
 
-.aboutimg img{
+.aboutimg img {
     width: 600px;
     height: 90%;
 }
+
 /*utility classes*/
-.h1-primary{
-    font-size:3.8rem;
-    font-family:'Bree serif',serif;
-    
+.h1-primary {
+    font-size: 3.8rem;
+    font-family: 'Bree serif', serif;
+
 
 }
-.btn{
+
+.btn {
     padding: 5px 1px 4px 1px;
     margin: 9px 542px;
     color: white;
@@ -249,20 +277,22 @@ footer{
     cursor: pointer;
 }
 
-.h-primary{
-    font-size:2.8rem;
-    font-family:'Bree serif',serif;
-    color:black;
+.h-primary {
+    font-size: 2.8rem;
+    font-family: 'Bree serif', serif;
+    color: black;
     cursor: pointer;
     margin-top: 50px;
-    
+
 }
-.h-secondry{
-    font-size:1.8rem;
-    font-family:'Bree serif',serif;
-   
+
+.h-secondry {
+    font-size: 1.8rem;
+    font-family: 'Bree serif', serif;
+
 }
-.center{
-    text-align:center;
-    
+
+.center {
+    text-align: center;
+
 }
